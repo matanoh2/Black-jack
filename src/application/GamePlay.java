@@ -21,7 +21,7 @@ public class GamePlay {
 		dealerLabel.setVisible(false);
 		standBtn.setDisable(true);
 		hitMeBtn.setDisable(true);
-		sldr.setMax(10006);
+		sldr.setMax(100);
 		
 		deck  = new Deck();
 		player1 = new Player(name, Integer.valueOf((int)sldr.getMax()), deck);
